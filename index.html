@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="./src/css/style-navbar.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/scrollbar.css">
-    <link rel="stylesheet" href="./src/css/slide.css">
 </head>
 
 <body>
@@ -30,11 +29,21 @@
         </nav>
     </header>
     <main>
-        <section id="sobre">
-            <h1>Sobre</h1>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, repudiandae rerum dolorem accusantium
-                architecto eaque atque, fugit repellendus expedita perspiciatis ex? Dolorem rerum tenetur quam ex animi
-                quos mollitia fugit.</h2>
+        <section class="sobre" id="sobre">
+            <div class="texto-sobre">
+
+                <h1 class="titulo">
+                    <span>Olá, eu sou</span>
+                    <div class="animated-info">
+                        <span class="animated-item">Leonardo Silva</span>
+                        <span class="animated-item">um Desenvolvedor Front End</span>
+                    </div>
+                </h1>
+                <p>Sou um estudante da área de programação, atualmente focado no desenvolvimento Front End.</p>
+            </div>
+            <div class="imagem">
+                <img src="./src/images/undraw_software_engineer_lvl5.svg" alt="imagem sobre">
+            </div>
         </section>
         <div class="separador"></div>
         <section class="projetos" id="projetos">
@@ -43,26 +52,25 @@
             </div>
             <div class="container-itens">
                 <button id="prevBtn"><img src="./src/images/arrow-left.svg" alt="botao voltar"></button>
-                <div class="itens" id="itens">
-                    <div class="item">
-                        <img src="./src/images/project/project-image01.png" alt="imagem teste 1">
-                    </div>
-                    <div class="item">
-                        <img src="./src/images/project/project-image02.png" alt="imagem teste 2">
-                    </div>
-                    <div class="item">
-                        <img src="./src/images/project/project-image03.png" alt="imagem teste 3">
-                    </div>
-                    <div class="item">
-                        <img src="./src/images/project/project-image04.png" alt="imagem teste 4">
-                    </div>
-                    <div class="item">
-                        <img src="./src/images/project/project-image05.png" alt="imagem teste 5">
-                    </div>
-                </div>
+                <ul class="itens" id="itens">
+                    <li class="item">
+                        <img src="./src/images/projetos/project-image01.png" alt="imagem teste 1">
+                    </li>
+                    <li class="item">
+                        <img src="./src/images/projetos/project-image02.png" alt="imagem teste 2">
+                    </li>
+                    <li class="item">
+                        <img src="./src/images/projetos/project-image03.png" alt="imagem teste 3">
+                    </li>
+                    <li class="item">
+                        <img src="./src/images/projetos/project-image04.png" alt="imagem teste 4">
+                    </li>
+                    <li class="item">
+                        <img src="./src/images/projetos/project-image05.png" alt="imagem teste 5">
+                    </li>
+                </ul>
                 <button id="nextBtn"><img src="./src/images/arrow-right.svg" alt="botao avançar"></button>
             </div>
-
 
             <div class="input-radio">
                 <input type="radio" name="btn-radio" id="radio1">
@@ -82,18 +90,18 @@
         </section>
 
         <div class="separador"></div>
-        <section id="resumo">
+        <section class="resumo" id="resumo">
             <h2>Resumo</h2>
-            <h2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi distinctio ea reiciendis alias ducimus
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi distinctio ea reiciendis alias ducimus
                 quia vero harum eaque porro quod! Facere magnam nemo minima, pariatur quam repellendus placeat porro
-                debitis?</h2>
+                debitis?</p>
         </section>
         <div class="separador"></div>
-        <section id="contato">
+        <section class="contato" id="contato">
             <h2>Contato</h2>
-            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, qui. Placeat iure ipsum dicta
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, qui. Placeat iure ipsum dicta
                 exercitationem repellendus consequuntur nostrum! Enim veniam eius odit quo nostrum quas libero, ullam in
-                voluptatibus numquam!</h2>
+                voluptatibus numquam!</p>
         </section>
     </main>
     <div class="separador"></div>
@@ -101,7 +109,7 @@
 
     </footer>
     <script src="./src/js/mobile-navbar.js"></script>
-    <script src="./src/js/slide.js"></script>
+    <script src="./src/js/projetos.js"></script>
 </body>
 
 </html>

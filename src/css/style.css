@@ -260,35 +260,36 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 5rem;
+    gap: 2rem;
 }
 
 footer .redes-sociais {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
 }
 
-footer .aaa {
+footer .redes-sociais a img {
+    width: 35px;
+    height: 35px;
+    border-radius: 7px;
     background-color: #fff;
 }
 
-footer .redes-sociais img {
-    width: 50px;
-    /*
-    display: inline-block;
-    border-radius: 50%;
-    */
-    background-color: #fff;
-    border: 5px solid crimson;
-    
-}
-
-footer .redes-sociais img:first-child {
+footer .redes-sociais a:first-child img {
     filter: invert(1);
+}
+
+footer .container-cabecario {
+    width: 50%;
 }
 
 footer .cabecario {
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     text-transform: uppercase;
-    gap: 20px;
     font-weight: bold;
 }
 

@@ -15,13 +15,14 @@ p {
     font-weight: 300;
     line-height: 1.5;
     color: #5b5b5b;
-  }
-  
+}
+
 
 /*** SOBRE ***/
 .sobre {
     padding: 5rem;
     display: flex;
+    height: 92vh;
 }
 
 .texto-sobre {
@@ -30,6 +31,7 @@ p {
     flex-direction: column;
     justify-content: center;
     text-align: left;
+    gap: 15px;
 }
 
 .imagem {
@@ -99,6 +101,44 @@ p {
     }
 }
 
+.container-btn {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-btn a {
+    color: #000;
+}
+
+#btn-github,
+#btn-cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    width: 200px;
+    gap: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#btn-github {
+    background-color: #fff;
+}
+
+#btn-cv {
+    background-color: rgb(28, 88, 218);
+}
+
+#btn-github:hover {
+    background-color: #faf0f0;
+}
+
+#btn-cv:hover {
+    background-color: rgb(58, 107, 214);
+}
+
 /*** PROJETOS ***/
 
 .projetos {
@@ -106,6 +146,7 @@ p {
     flex-direction: column;
     align-items: center;
     padding: 5rem;
+    height: 92vh;
 }
 
 .container-itens {
@@ -193,12 +234,14 @@ p {
 
 .resumo {
     padding: 5rem;
+    height: 92vh;
 }
 
 /*** CONTATO ***/
 
 .contato {
     padding: 5rem;
+    height: 92vh;
 }
 
 /*** ***/
@@ -206,4 +249,49 @@ p {
     width: 100%;
     height: 0.5rem;
     background-color: #000;
+}
+
+/*** FOOTER ***/
+
+footer {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+footer .redes-sociais {
+    display: flex;
+}
+
+footer .aaa {
+    background-color: #fff;
+}
+
+footer .redes-sociais img {
+    width: 50px;
+    /*
+    display: inline-block;
+    border-radius: 50%;
+    */
+    background-color: #fff;
+    border: 5px solid crimson;
+    
+}
+
+footer .redes-sociais img:first-child {
+    filter: invert(1);
+}
+
+footer .cabecario {
+    display: flex;
+    text-transform: uppercase;
+    gap: 20px;
+    font-weight: bold;
+}
+
+footer p a {
+    color: #5b5b5b;
 }

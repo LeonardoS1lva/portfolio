@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Leonardo Silva</title>
+    
+    <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style-navbar.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="stylesheet" href="./src/css/scrollbar.css">
@@ -23,7 +25,7 @@
             <ul class="nav-list">
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#resumo">Resumo</a></li>
+                <li><a href="#resumo">Tecnologias</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
@@ -43,18 +45,20 @@
                 <div class="container-btn">
                     <a href="https://github.com/LeonardoS1lva" target="_blank">
                         <button id="btn-github">
-                            <img src="./src/images/github.svg" alt="icone github">
+                            <img src="./src/images/redes-sociais/github.svg" alt="icone github">
                             github
                         </button>
                     </a>
-                    <button id="btn-cv">
-                        <img src="./src/images/download.svg" alt="icone download">
-                        Download cv
-                    </button>
+                    <a href="./src/curriculo/cv.pdf" download="cv.pdf" type="application/pdf">
+                        <button id="btn-cv">
+                            <img src="./src/images/download.svg" alt="icone download">
+                            Download cv
+                        </button>
+                    </a>
                 </div>
             </div>
             <div class="imagem">
-                <img src="./src/images/undraw_software_engineer_lvl5.svg" alt="imagem sobre">
+                <img src="./src/images/undraw_programming.svg" alt="imagem sobre">
             </div>
         </section>
         <div class="separador"></div>
@@ -103,31 +107,50 @@
 
         <div class="separador"></div>
         <section class="resumo" id="resumo">
-            <h2>Resumo</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi distinctio ea reiciendis alias ducimus
-                quia vero harum eaque porro quod! Facere magnam nemo minima, pariatur quam repellendus placeat porro
-                debitis?</p>
+            <h2>Tecnologias</h2>
+            <ul>
+                <li>
+                    <img src="./src/images/tecnologias/html.svg" alt="HTML">
+                </li>
+                <li>
+                    <img src="./src/images/tecnologias/css.svg" alt="CSS">
+                </li>
+                <li>
+                    <img src="./src/images/tecnologias/js.svg" alt="Javascript">
+                </li>
+                <li>
+                    <img src="./src/images/tecnologias/react.svg" alt="ReactJS">
+                </li>
+                <li>
+                    <img src="./src/images/tecnologias/java.svg" alt="Java">
+                </li>
+                <li>
+                    <img src="./src/images/tecnologias/python.svg" alt="Python">
+                </li>
+            </ul>
         </section>
         <div class="separador"></div>
         <section class="contato" id="contato">
-            <h2 class="titulo-contato">Contato</h2>
+            <h2>Contato</h2>
             <div class="container-contato">
                 <div class="contato-email">
                     <form action="https://formsubmit.co/5a1e73e2aa113899994a470e4c61f4bb" method="POST">
                         <input type="hidden" name="_next" value="http://127.0.0.1:5500/email-enviado.html">
                         <div class="formulario-email">
                             <div class="dados-form">
-                                <input type="text" name="Nome" class="form-control" placeholder="Seu Nome" id="name" required aria-required="true">
-                                <input type="email" name="Email" class="form-control" placeholder="Email" id="email" required aria-required="true">
+                                <input type="text" name="Nome" class="form-control" placeholder="Seu Nome" id="name"
+                                    required aria-required="true">
+                                <input type="email" name="Email" class="form-control" placeholder="Email" id="email"
+                                    required aria-required="true">
                             </div>
                             <textarea name="Mensagem" class="form-control" id="mensagem"
-                            placeholder="Insira sua mensagem" rows="6" required aria-required="true"></textarea>
+                                placeholder="Insira sua mensagem" rows="6" required aria-required="true"></textarea>
                             <input type="submit" class="form-control submit-btn" value="Enviar">
                         </div>
                     </form>
                 </div>
                 <div class="imagem-email">
-                    <img src="./src/images/undraw_software_engineer_lvl5.svg" alt="imagem teste">
+                    <img src="./src/images/undraw_contact.svg" alt="imagem teste">
                 </div>
             </div>
         </section>
@@ -136,13 +159,13 @@
     <footer>
         <div class="redes-sociais">
             <a href="https://github.com/LeonardoS1lva">
-                <img src="./src/images/github.svg" alt="Icone Github">
+                <img src="./src/images/redes-sociais/github.svg" alt="Icone Github">
             </a>
             <a href="https://www.linkedin.com/in/leonardos1lva/">
-                <img src="./src/images/linkedin.svg" alt="Icone LinkedIn">
+                <img src="./src/images/redes-sociais/linkedin.svg" alt="Icone LinkedIn">
             </a>
             <a href="https://www.instagram.com/_leo1silva/">
-                <img class="aaa" src="./src/images/instagram.svg" alt="Icone Instagram">
+                <img class="aaa" src="./src/images/redes-sociais/instagram.svg" alt="Icone Instagram">
             </a>
         </div>
         <div class="container-cabecario">
@@ -150,7 +173,7 @@
                 <li><a href="#">Início</a></li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#resumo">Resumo</a></li>
+                <li><a href="#resumo">Tecnologias</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </div>

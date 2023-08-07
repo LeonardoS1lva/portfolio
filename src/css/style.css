@@ -17,7 +17,6 @@ p {
     color: #5b5b5b;
 }
 
-
 /*** SOBRE ***/
 .sobre {
     padding: 5rem;
@@ -168,7 +167,6 @@ p {
 .itens {
     display: flex;
     overflow-x: hidden;
-    /* esconder o scroll hidden*/
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
     scroll-behavior: smooth;
@@ -235,6 +233,37 @@ p {
 .resumo {
     padding: 5rem;
     height: 92vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+}
+
+.resumo ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.resumo li {
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    background-color: #000;
+    border: 2px solid #5b5b5b;
+    box-shadow: 10px 10px 10px #000;
+    transition: 0.2s ease-in-out;
+    color: #fff;
+}
+
+.resumo li:hover {
+    transform: scale(1.05);
+}
+
+.resumo li img {
+    width: 5rem;
+    height: 5rem;
 }
 
 /*** CONTATO ***/
@@ -245,10 +274,6 @@ p {
     display: flex;
     flex-direction: column;
     gap: 20px;
-}
-
-.titulo-contato {
-    align-items: center;
 }
 
 .container-contato {
@@ -285,27 +310,36 @@ p {
     gap: 1rem;
 }
 
+.formulario-email .dados-form input {
+    padding: 20px;
+}
+
 .formulario-email .form-control {
     background: transparent;
     border-radius: 2px;
     font-weight: bold;
-    border: 1px solid #5b5b5b;
+    border: 2px solid #a5a0a0;
     width: 100%;
+    font-size: 15px;
   }
 
   .formulario-email .form-control:not(textarea) {
     height: 48px;
   }
 
+  .formulario-email textarea {
+    padding: 10px 20px;
+    resize: none;
+  }
+
   .formulario-email .form-control:hover, .formulario-email .form-control:focus {
     border-color: #000;
-    border-width: 2px;
   }
 
   .formulario-email .submit-btn {
     background: #000;
     border-radius: 2rem;
-    color: #ffffff;
+    color: #fff;
     font-weight: bold;
     border: 0;
     cursor: pointer;

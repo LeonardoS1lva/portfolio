@@ -242,7 +242,80 @@ p {
 .contato {
     padding: 5rem;
     height: 92vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
+
+.titulo-contato {
+    align-items: center;
+}
+
+.container-contato {
+    display: flex;
+}
+
+.imagem-email {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-email img {
+    width: 80%;
+}
+
+.contato-email {
+    width: 50%;
+}
+
+.formulario-email {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    border: 3px solid #000;
+    border-radius: 2rem;
+}
+
+.formulario-email .dados-form {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.formulario-email .form-control {
+    background: transparent;
+    border-radius: 2px;
+    font-weight: bold;
+    border: 1px solid #5b5b5b;
+    width: 100%;
+  }
+
+  .formulario-email .form-control:not(textarea) {
+    height: 48px;
+  }
+
+  .formulario-email .form-control:hover, .formulario-email .form-control:focus {
+    border-color: #000;
+    border-width: 2px;
+  }
+
+  .formulario-email .submit-btn {
+    background: #000;
+    border-radius: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    width: 50%;
+  }
+  
+  .formulario-email .submit-btn:hover {
+      background-color: #353535;
+  }
 
 /*** ***/
 .separador {

@@ -110,10 +110,26 @@
         </section>
         <div class="separador"></div>
         <section class="contato" id="contato">
-            <h2>Contato</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, qui. Placeat iure ipsum dicta
-                exercitationem repellendus consequuntur nostrum! Enim veniam eius odit quo nostrum quas libero, ullam in
-                voluptatibus numquam!</p>
+            <h2 class="titulo-contato">Contato</h2>
+            <div class="container-contato">
+                <div class="contato-email">
+                    <form action="https://formsubmit.co/5a1e73e2aa113899994a470e4c61f4bb" method="POST">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/email-enviado.html">
+                        <div class="formulario-email">
+                            <div class="dados-form">
+                                <input type="text" name="Nome" class="form-control" placeholder="Seu Nome" id="name" required aria-required="true">
+                                <input type="email" name="Email" class="form-control" placeholder="Email" id="email" required aria-required="true">
+                            </div>
+                            <textarea name="Mensagem" class="form-control" id="mensagem"
+                            placeholder="Insira sua mensagem" rows="6" required aria-required="true"></textarea>
+                            <input type="submit" class="form-control submit-btn" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+                <div class="imagem-email">
+                    <img src="./src/images/undraw_software_engineer_lvl5.svg" alt="imagem teste">
+                </div>
+            </div>
         </section>
     </main>
     <div class="separador"></div>

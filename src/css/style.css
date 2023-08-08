@@ -18,6 +18,7 @@ p {
 }
 
 /*** SOBRE ***/
+
 .sobre {
     padding: 5rem;
     display: flex;
@@ -30,7 +31,7 @@ p {
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    gap: 15px;
+    gap: 40px;
 }
 
 .imagem {
@@ -44,7 +45,7 @@ p {
 }
 
 .titulo {
-    font-size: 38px;
+    font-size: 2.8vw;
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -220,8 +221,6 @@ p {
     justify-content: center;
     align-items: center;
 }
-
-/*verificar offline, manutenção*/
 
 .btn-visualizar {
     display: flex;
@@ -403,9 +402,9 @@ footer {
 
 footer .redes-sociais {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    width: 50%;
+    gap: 5rem;
 }
 
 footer .redes-sociais a img {
@@ -419,33 +418,35 @@ footer .redes-sociais a:first-child img {
     filter: invert(1);
 }
 
-footer .container-cabecario {
-    width: 50%;
-}
-
 footer .cabecario {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     text-transform: uppercase;
     font-weight: bold;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+footer p {
+    text-align: center;
 }
 
 footer p a {
     color: #5b5b5b;
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:400px) {
     h1 {
         font-size: 1.5rem;
     }
-    
+
     h2 {
         font-size: 1.4rem;
     }
-    
+
     /*** SOBRE ***/
-    
+
     .sobre {
         padding: 1rem;
     }
@@ -454,14 +455,10 @@ footer p a {
         width: 100%;
     }
 
-    .texto-sobre p {
-        padding-top: 1.5rem;
-    }
-    
     .imagem {
         display: none;
     }
-    
+
     .titulo {
         font-size: 1.5rem;
         flex-direction: column;
@@ -504,23 +501,37 @@ footer p a {
     footer {
         padding: 1rem;
     }
+}
 
-    footer p,
-    a {
-        text-align: center;
+@media screen and (min-width:401px) and (max-width:800px) {
+    .titulo {
+        font-size: 4vw;
     }
 
-    footer .redes-sociais {
-        gap: 15px;
-    }
-
-    footer .container-cabecario {
+    .texto-sobre {
         width: 100%;
     }
 
-    footer .cabecario {
-        gap: 20px;
-        flex-wrap: wrap;
-        justify-content: center;
+    .imagem {
+        display: none;
+    }
+
+    .imagem-email {
+        display: none;
+    }
+
+    .contato-email {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:401px) and (max-width:570px) {
+    .titulo {
+        flex-direction: column;
+    }
+
+    .container-btn {
+        flex-direction: column;
+        align-items: center;
     }
 }

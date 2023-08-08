@@ -138,6 +138,17 @@ main .acesso-projeto {
     align-items: center;
 }
 
+.status-manutencao {
+    color: yellow;
+    border: 0.1px solid yellow;
+    border-radius: 0.8rem;
+    padding: 0 0.5rem;
+    background-color: rgb(255, 255, 106);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .status-offline {
     color: red;
     border: 0.1px solid red;
@@ -183,7 +194,7 @@ a {
     text-align: center;
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:900px) {
     .titulo {
         padding: 1rem;
         font-size: 1.5rem;
@@ -195,6 +206,14 @@ a {
 
     main ul li {
         flex-direction: column;
+    }
+
+    main .preview-projeto {
+        max-height: max-content;
+    }
+
+    main .preview-projeto img {
+        object-fit: cover;
     }
 
     main .preview-projeto img:hover {

@@ -1,3 +1,5 @@
+const visivel = document.querySelector("body > header > nav > ul");
+
 class MobileNavbar {
     constructor(mobileMenu, navList, navLinks) {
         this.mobileMenu = document.querySelector(mobileMenu);
@@ -19,6 +21,7 @@ class MobileNavbar {
     handleClick() {
         this.navList.classList.toggle(this.activeClass);
         this.mobileMenu.classList.toggle(this.activeClass);
+        visivel.classList.toggle("nav-display");
         this.animateLinks();
     }
 

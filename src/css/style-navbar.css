@@ -44,6 +44,10 @@ nav {
     transition: 0.3s;
 }
 
+.nav-display {
+    display: none;
+}
+
 @media (max-width: 999px) {
     body {
         overflow-x: hidden;

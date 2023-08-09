@@ -522,6 +522,14 @@ footer p a {
         display: none;
     }
 
+    .sobre {
+        padding: 3rem;
+    }
+
+    .contato {
+        padding: 2rem;
+    }
+
     .imagem-email {
         display: none;
     }

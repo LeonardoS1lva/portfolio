@@ -526,6 +526,10 @@ footer p a {
         padding: 3rem;
     }
 
+    .projetos .itens li:hover:not(li:last-child) {
+        transform: none;
+    }
+
     .contato {
         padding: 2rem;
     }

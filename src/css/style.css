@@ -112,7 +112,7 @@ p {
 }
 
 #btn-github,
-#btn-cv {
+#btn-linkedin {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,15 +128,21 @@ p {
     background-color: #fff;
 }
 
-#btn-cv {
+#btn-linkedin {
     background-color: rgb(28, 88, 218);
+}
+
+#btn-linkedin img {
+    background-color: #fff;;
+    border: 1px solid #000;
+    border-radius: 5px;
 }
 
 #btn-github:hover {
     background-color: #faf0f0;
 }
 
-#btn-cv:hover {
+#btn-linkedin:hover {
     background-color: rgb(58, 107, 214);
 }
 
@@ -465,7 +471,7 @@ footer p a {
     }
 
     #btn-github,
-    #btn-cv {
+    #btn-linkedin {
         font-size: 12px;
         width: 150px;
     }

@@ -127,7 +127,7 @@ main .acesso-projeto {
     cursor: pointer;
 }
 
-.status {
+.status-Online {
     color: green;
     border: 0.1px solid green;
     border-radius: 0.8rem;
@@ -138,18 +138,18 @@ main .acesso-projeto {
     align-items: center;
 }
 
-.status-manutencao {
-    color: yellow;
+.status-Atualizando {
+    color: rgb(212, 212, 0);
     border: 0.1px solid yellow;
     border-radius: 0.8rem;
     padding: 0 0.5rem;
-    background-color: rgb(255, 255, 106);
+    background-color: rgb(255, 255, 187);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.status-offline {
+.status-Offline {
     color: red;
     border: 0.1px solid red;
     border-radius: 0.8rem;

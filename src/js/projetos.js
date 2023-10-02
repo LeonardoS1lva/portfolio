@@ -113,7 +113,7 @@ const projetos = [
         nomeRepositorio: "Curso-React",
         online: true,
         download: false,
-        status: "Online",
+        status: "Offline",
         linkOnline: "https://kdef8h-3000.csb.app/",
     },
     {

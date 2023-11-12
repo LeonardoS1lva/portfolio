@@ -181,6 +181,19 @@ const projetos = [
         status: "Online",
         linkOnline: "https://leonardos1lva.github.io/age-calculator-app/",
     },
+    {
+        id: 15,
+        nome: "Consulta de Temperatura",
+        nomeArquivoImg: "preview-weather-test-api.png",
+        textoAlternativo: "Consulta de Temperatura",
+        descricao: "Programa desenvolvido para testes usando uma API que obtém informações sobre o clima em diversas regiões ao redor do mundo.",
+        tecnologias: ["html", "css", "javascript"],
+        nomeRepositorio: "weather-test-api",
+        online: true,
+        download: false,
+        status: "Online",
+        linkOnline: "https://leonardos1lva.github.io/weather-test-api/",
+    },
 ];
 
 for (const projeto of projetos) {

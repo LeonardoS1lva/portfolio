@@ -197,7 +197,7 @@ const projetos = [
     {
         id: 16,
         nome: "Rastreador de IP's",
-        nomeArquivoImg: "preview-ip-address-tracker-master.png",/////
+        nomeArquivoImg: "preview-ip-address-tracker-master.png",
         textoAlternativo: "Rastreador de IP's",
         descricao: `Desafio do site Frontendmentor para a criação de um rastreador de IP's, utilizando a API 
         <a href="https://geo.ipify.org/">IP Geolocation API by IPify</a> para a geocalização e a biblioteca <a href="https://leafletjs.com/">LeafletJS</a> para a geração do mapa.`,
@@ -211,9 +211,9 @@ const projetos = [
     {
         id: 17,
         nome: "Formulário com Validação de Campos",
-        nomeArquivoImg: "preview-intro-component-with-signup-form-master.png", //////
+        nomeArquivoImg: "preview-intro-component-with-signup-form-master.png",
         textoAlternativo: "Formulário com validação de campos",
-        descricao: "Desafio do site Frontendmentor para a criação de um rastreador de IP's", //////
+        descricao: "Desafio do site Frontendmentor para a criação de um formulário com validação de campos.",
         tecnologias: ["html", "css", "javascript"],
         nomeRepositorio: "intro-component-with-signup-form-master",
         online: true,
@@ -224,7 +224,7 @@ const projetos = [
     {
         id: 18,
         nome: "Gerador de Conselhos",
-        nomeArquivoImg: "preview-advice-generator-app.png",/////
+        nomeArquivoImg: "preview-advice-generator-app.png",
         textoAlternativo: "Gerador de Conselhos",
         descricao: "Um site onde pode-se gerar conselhos aleatórios ao clicar no botão verde.",
         tecnologias: ["html", "css", "javascript"],

@@ -234,4 +234,17 @@ const projetos = [
         status: "Online",
         linkOnline: "https://leonardos1lva.github.io/advice-generator-app/",
     },
+    {
+        id: 19,
+        nome: "Carrinho de Compras",
+        nomeArquivoImg: "preview-carrinho-de-compras.png",
+        textoAlternativo: "carrinho de compras",
+        descricao: "Um simulador de site de vendas com uso de carrinho de compras local.",
+        tecnologias: ["html", "css", "javascript"],
+        nomeRepositorio: "carrinho-de-compras",
+        online: true,
+        download: false,
+        status: "Online",
+        linkOnline: "https://leonardos1lva.github.io/carrinho-de-compras/",
+    },
 ];

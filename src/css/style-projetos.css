@@ -15,6 +15,14 @@ body {
     min-height: 100vh;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 0 15px 15px #94a3b8;
+    z-index: 10;
+}
+
 nav {
     height: 8vh;
     background-color: #000;

@@ -1,246 +1,341 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Leonardo da Silva Correia" />
+    <meta
+      name="description"
+      content="Portfólio de apresentação pessoal, contendo projetos sobre programação e algumas habilidades de desenvolvimento, seja bem muito vindo!"
+    />
+    <meta
+      name="keywords"
+      content="programador, portfólio, front-end, LeonardoS1lva"
+    />
+    <meta name="robots" content="index" />
+    <meta name="robots" content="follow" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Leonardo da Silva Correia">
-    <meta name="description" content="Seja bem vindo, esse é o meu portfólio de apresentação pessoal!">
-    <meta name="keywords" content="programador, portfólio, front-end, LeonardoS1lva">
+    <title>Portfólio - Leonardo Silva</title>
 
-    <title>Portfólio Leonardo Silva</title>
+    <link
+      rel="shortcut icon"
+      href="./src/images/logo.svg"
+      type="image/x-icon"
+    />
 
-    <link rel="shortcut icon" href="./src/images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style-navbar.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/scrollbar.css" />
+  </head>
 
-    <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/style-navbar.css">
-    <link rel="stylesheet" href="./src/css/style.css">
-    <link rel="stylesheet" href="./src/css/scrollbar.css">
-</head>
-
-<body>
+  <body>
     <header>
-        <nav>
-            <a class="logo" href="#">Leonardo Silva</a>
-            <div class="mobile-menu">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-            <ul class="nav-list">
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#resumo">Tecnologias</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <a class="logo" href="#">Leonardo Silva</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#resumo">Tecnologias</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section class="sobre" id="sobre">
-            <div class="texto-sobre">
+      <section class="sobre" id="sobre">
+        <div class="texto-sobre">
+          <h1 class="titulo">
+            <span>Olá, eu sou</span>
+            <div class="animated-info">
+              <span class="animated-item">Leonardo Silva</span>
+              <span class="animated-item">um Desenvolvedor Front End</span>
+            </div>
+          </h1>
+          <p>
+            Sou um estudante da área de programação, atualmente focado no
+            desenvolvimento Front End.
+          </p>
+          <div class="container-btn">
+            <a href="https://github.com/LeonardoS1lva" target="_blank">
+              <button id="btn-github">
+                <img
+                  src="./src/images/redes-sociais/github.svg"
+                  alt="icone github"
+                />
+                github
+              </button>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/leonardos1lva/"
+              target="_blank"
+            >
+              <button id="btn-linkedin">
+                <img
+                  src="./src/images/redes-sociais/linkedin.svg"
+                  alt="icone linkedin"
+                />
+                LinkedIn
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="imagem">
+          <img src="./src/images/undraw_programming.svg" alt="imagem sobre" />
+        </div>
+      </section>
 
-                <h1 class="titulo">
-                    <span>Olá, eu sou</span>
-                    <div class="animated-info">
-                        <span class="animated-item">Leonardo Silva</span>
-                        <span class="animated-item">um Desenvolvedor Front End</span>
-                    </div>
-                </h1>
-                <p>Sou um estudante da área de programação, atualmente focado no desenvolvimento Front End.</p>
-                <div class="container-btn">
-                    <a href="https://github.com/LeonardoS1lva" target="_blank">
-                        <button id="btn-github">
-                            <img src="./src/images/redes-sociais/github.svg" alt="icone github">
-                            github
-                        </button>
-                    </a>
-                    <a href="https://www.linkedin.com/in/leonardos1lva/" target="_blank">
-                        <button id="btn-linkedin">
-                            <img src="./src/images/redes-sociais/linkedin.svg" alt="icone linkedin">
-                            LinkedIn
-                        </button>
-                    </a>
+      <div class="separador"></div>
+
+      <section class="projetos" id="projetos">
+        <div>
+          <h2>Meus Projetos</h2>
+        </div>
+        <div class="lista-projetos">
+          <ul class="itens">
+            <li>
+              <img
+                src="./src/images/projetos/preview-ip-address-tracker-master.png"
+                alt="Rastreador de IP's"
+                class="img-projeto"
+              />
+              <h3>Rastreador de IP's</h3>
+              <div class="info-projeto">
+                <strong class="status">Online</strong>
+                <a
+                  href="https://leonardos1lva.github.io/ip-address-tracker-master/"
+                  target="_blank"
+                >
+                  <button class="btn-visualizar">
+                    <img src="./src/images/icone-link.svg" alt="icone link" />
+                    Visualizar
+                  </button>
+                </a>
+              </div>
+            </li>
+            <li>
+              <img
+                src="./src/images/projetos/preview-projeto-listagem-pokemon.png"
+                alt="Listagem Pokemon"
+                class="img-projeto"
+              />
+              <h3>Pokedex</h3>
+              <div class="info-projeto">
+                <strong class="status">Online</strong>
+                <a
+                  href="https://leonardos1lva.github.io/projeto-listagem-pokemon/"
+                  target="_blank"
+                >
+                  <button class="btn-visualizar">
+                    <img src="./src/images/icone-link.svg" alt="icone link" />
+                    Visualizar
+                  </button>
+                </a>
+              </div>
+            </li>
+            <li>
+              <img
+                src="./src/images/projetos/preview-intro-component-with-signup-form-master.png"
+                alt="Formulário com Validação de Campos"
+                class="img-projeto"
+              />
+              <h3>Formulário</h3>
+              <div class="info-projeto">
+                <strong class="status">Online</strong>
+                <a
+                  href="https://leonardos1lva.github.io/intro-component-with-signup-form-master/"
+                  target="_blank"
+                >
+                  <button class="btn-visualizar">
+                    <img src="./src/images/icone-link.svg" alt="icone link" />
+                    Visualizar
+                  </button>
+                </a>
+              </div>
+            </li>
+            <li>
+              <img
+                src="./src/images/projetos/preview-advice-generator-app.png"
+                alt="Busca CEP"
+                class="img-projeto"
+              />
+              <h3>Gerador de Conselhos</h3>
+              <div class="info-projeto">
+                <strong class="status">Online</strong>
+                <a
+                  href="https://leonardos1lva.github.io/advice-generator-app/"
+                  target="_blank"
+                >
+                  <button class="btn-visualizar">
+                    <img src="./src/images/icone-link.svg" alt="icone link" />
+                    Visualizar
+                  </button>
+                </a>
+              </div>
+            </li>
+            <li>
+              <img
+                src="./src/images/projetos/preview-carrinho-de-compras.png"
+                alt="carrinho de compras"
+                class="img-projeto"
+              />
+              <h3>Carrinho de Compras</h3>
+              <div class="info-projeto">
+                <strong class="status">Online</strong>
+                <a
+                  href="https://leonardos1lva.github.io/carrinho-de-compras/"
+                  target="_blank"
+                >
+                  <button class="btn-visualizar">
+                    <img src="./src/images/icone-link.svg" alt="icone link" />
+                    Visualizar
+                  </button>
+                </a>
+              </div>
+            </li>
+            <li>
+              <div class="mais-projetos">
+                <a href="./projetos.html">
+                  <img src="./src/images/plus-circle.svg" alt="Icone +" />
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <div class="separador"></div>
+
+      <section class="resumo" id="resumo">
+        <h2>Tecnologias</h2>
+        <ul>
+          <li>
+            <img src="./src/images/tecnologias/html.svg" alt="HTML" />
+          </li>
+          <li>
+            <img src="./src/images/tecnologias/css.svg" alt="CSS" />
+          </li>
+          <li>
+            <img
+              src="./src/images/tecnologias/javascript.svg"
+              alt="Javascript"
+            />
+          </li>
+          <li>
+            <img src="./src/images/tecnologias/react.svg" alt="ReactJS" />
+          </li>
+          <li>
+            <img src="./src/images/tecnologias/java.svg" alt="Java" />
+          </li>
+          <li>
+            <img src="./src/images/tecnologias/python.svg" alt="Python" />
+          </li>
+        </ul>
+      </section>
+
+      <div class="separador"></div>
+
+      <section class="contato" id="contato">
+        <h2>Contato</h2>
+        <div class="container-contato">
+          <div class="contato-email">
+            <form
+              action="https://formsubmit.co/5a1e73e2aa113899994a470e4c61f4bb"
+              method="POST"
+            >
+              <input
+                type="hidden"
+                name="_next"
+                value="https://leonardos1lva.github.io/portifolio/email-enviado.html"
+              />
+              <div class="formulario-email">
+                <div class="dados-form">
+                  <input
+                    type="text"
+                    name="Nome"
+                    class="form-control"
+                    placeholder="Seu Nome"
+                    id="name"
+                    required
+                    aria-required="true"
+                    autocomplete="name"
+                  />
+                  <input
+                    type="email"
+                    name="Email"
+                    class="form-control"
+                    placeholder="Email"
+                    id="email"
+                    required
+                    aria-required="true"
+                    autocomplete="email"
+                  />
                 </div>
-            </div>
-            <div class="imagem">
-                <img src="./src/images/undraw_programming.svg" alt="imagem sobre">
-            </div>
-        </section>
-
-        <div class="separador"></div>
-
-        <section class="projetos" id="projetos">
-            <div>
-                <h2>Meus Projetos</h2>
-            </div>
-            <div class="lista-projetos">
-                <ul class="itens">
-                    <li>
-                        <img src="./src/images/projetos/preview-ip-address-tracker-master.png" alt="Rastreador de IP's"
-                            class="img-projeto">
-                        <h3>Rastreador de IP's</h3>
-                        <div class="info-projeto">
-                            <strong class="status">Online</strong>
-                            <a href="https://leonardos1lva.github.io/ip-address-tracker-master/" target="_blank">
-                                <button class="btn-visualizar">
-                                    <img src="./src/images/icone-link.svg" alt="icone link">
-                                    Visualizar
-                                </button>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./src/images/projetos/preview-projeto-listagem-pokemon.png" alt="Listagem Pokemon"
-                            class="img-projeto">
-                        <h3>Pokedex</h3>
-                        <div class="info-projeto">
-                            <strong class="status">Online</strong>
-                            <a href="https://leonardos1lva.github.io/projeto-listagem-pokemon/" target="_blank">
-                                <button class="btn-visualizar">
-                                    <img src="./src/images/icone-link.svg" alt="icone link">
-                                    Visualizar
-                                </button>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./src/images/projetos/preview-intro-component-with-signup-form-master.png"
-                            alt="Formulário com Validação de Campos" class="img-projeto">
-                        <h3>Formulário</h3>
-                        <div class="info-projeto">
-                            <strong class="status">Online</strong>
-                            <a href="https://leonardos1lva.github.io/intro-component-with-signup-form-master/"
-                                target="_blank">
-                                <button class="btn-visualizar">
-                                    <img src="./src/images/icone-link.svg" alt="icone link">
-                                    Visualizar
-                                </button>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./src/images/projetos/preview-advice-generator-app.png" alt="Busca CEP"
-                            class="img-projeto">
-                        <h3>Gerador de Conselhos</h3>
-                        <div class="info-projeto">
-                            <strong class="status">Online</strong>
-                            <a href="https://leonardos1lva.github.io/advice-generator-app/" target="_blank">
-                                <button class="btn-visualizar">
-                                    <img src="./src/images/icone-link.svg" alt="icone link">
-                                    Visualizar
-                                </button>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <img src="./src/images/projetos/preview-carrinho-de-compras.png" alt="carrinho de compras"
-                            class="img-projeto">
-                        <h3>Carrinho de Compras</h3>
-                        <div class="info-projeto">
-                            <strong class="status">Online</strong>
-                            <a href="https://leonardos1lva.github.io/carrinho-de-compras/" target="_blank">
-                                <button class="btn-visualizar">
-                                    <img src="./src/images/icone-link.svg" alt="icone link">
-                                    Visualizar
-                                </button>
-                            </a>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="mais-projetos">
-                            <a href="./projetos.html">
-                                <img src="./src/images/plus-circle.svg" alt="Icone +">
-                            </a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <div class="separador"></div>
-
-        <section class="resumo" id="resumo">
-            <h2>Tecnologias</h2>
-            <ul>
-                <li>
-                    <img src="./src/images/tecnologias/html.svg" alt="HTML">
-                </li>
-                <li>
-                    <img src="./src/images/tecnologias/css.svg" alt="CSS">
-                </li>
-                <li>
-                    <img src="./src/images/tecnologias/javascript.svg" alt="Javascript">
-                </li>
-                <li>
-                    <img src="./src/images/tecnologias/react.svg" alt="ReactJS">
-                </li>
-                <li>
-                    <img src="./src/images/tecnologias/java.svg" alt="Java">
-                </li>
-                <li>
-                    <img src="./src/images/tecnologias/python.svg" alt="Python">
-                </li>
-            </ul>
-        </section>
-
-        <div class="separador"></div>
-
-        <section class="contato" id="contato">
-            <h2>Contato</h2>
-            <div class="container-contato">
-                <div class="contato-email">
-                    <form action="https://formsubmit.co/5a1e73e2aa113899994a470e4c61f4bb" method="POST">
-                        <input type="hidden" name="_next"
-                            value="https://leonardos1lva.github.io/portifolio/email-enviado.html">
-                        <div class="formulario-email">
-                            <div class="dados-form">
-                                <input type="text" name="Nome" class="form-control" placeholder="Seu Nome" id="name"
-                                    required aria-required="true">
-                                <input type="email" name="Email" class="form-control" placeholder="Email" id="email"
-                                    required aria-required="true">
-                            </div>
-                            <textarea name="Mensagem" class="form-control" id="mensagem"
-                                placeholder="Insira sua mensagem" rows="6" required aria-required="true"></textarea>
-                            <input type="submit" class="form-control submit-btn" value="Enviar">
-                        </div>
-                    </form>
-                </div>
-                <div class="imagem-email">
-                    <img src="./src/images/undraw_contact.svg" alt="imagem teste">
-                </div>
-            </div>
-        </section>
+                <textarea
+                  name="Mensagem"
+                  class="form-control"
+                  id="mensagem"
+                  placeholder="Insira sua mensagem"
+                  rows="6"
+                  required
+                  aria-required="true"
+                ></textarea>
+                <input
+                  type="submit"
+                  class="form-control submit-btn"
+                  value="Enviar"
+                />
+              </div>
+            </form>
+          </div>
+          <div class="imagem-email">
+            <img src="./src/images/undraw_contact.svg" alt="imagem teste" />
+          </div>
+        </div>
+      </section>
     </main>
 
     <div class="separador"></div>
 
     <footer>
-        <div class="redes-sociais">
-            <a href="https://github.com/LeonardoS1lva" target="_blank">
-                <img src="./src/images/redes-sociais/github.svg" alt="Icone Github">
-            </a>
-            <a href="https://www.linkedin.com/in/leonardos1lva/" target="_blank">
-                <img src="./src/images/redes-sociais/linkedin.svg" alt="Icone LinkedIn">
-            </a>
-            <a href="https://www.instagram.com/_leo1silva/" target="_blank">
-                <img src="./src/images/redes-sociais/instagram.svg" alt="Icone Instagram">
-            </a>
-        </div>
-        <div class="container-cabecario">
-            <ul class="cabecario">
-                <li><a href="#">Início</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#resumo">Tecnologias</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </div>
-        <p>Copyright &copy; 2023. Desenvolvido por
-            <a href="https://github.com/LeonardoS1lva" target="_blank"><ins>Leonardo Silva</ins></a>
-        </p>
+      <div class="redes-sociais">
+        <a href="https://github.com/LeonardoS1lva" target="_blank">
+          <img src="./src/images/redes-sociais/github.svg" alt="Icone Github" />
+        </a>
+        <a href="https://www.linkedin.com/in/leonardos1lva/" target="_blank">
+          <img
+            src="./src/images/redes-sociais/linkedin.svg"
+            alt="Icone LinkedIn"
+          />
+        </a>
+        <a href="https://www.instagram.com/_leo1silva/" target="_blank">
+          <img
+            src="./src/images/redes-sociais/instagram.svg"
+            alt="Icone Instagram"
+          />
+        </a>
+      </div>
+      <div class="container-cabecario">
+        <ul class="cabecario">
+          <li><a href="#">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#resumo">Tecnologias</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+      <p>
+        Copyright &copy; 2023. Desenvolvido por
+        <a href="https://github.com/LeonardoS1lva" target="_blank"
+          ><ins>Leonardo Silva</ins></a
+        >
+      </p>
     </footer>
     <script src="./src/js/mobile-navbar.js"></script>
-</body>
-
+  </body>
 </html>

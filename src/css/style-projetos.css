@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 h2 {
     text-align: left;
 }
@@ -200,6 +204,28 @@ footer p,
 a {
     color: #5b5b5b;
     text-align: center;
+}
+
+.btn-topo{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    color: #fff;
+    border: 2px solid #000;
+    border-radius: 50%;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.btn-topo:hover {
+    background-color: #5b5b5b;
+    cursor: pointer;
+}
+
+.btn-topo img {
+    width: 30px;
+    height: 30px;
 }
 
 @media screen and (max-width:900px) {

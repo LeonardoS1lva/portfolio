@@ -267,6 +267,12 @@ p {
   width: 40%;
 }
 
+.mais-projetos p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
 /*** RESUMO ***/
 
 .resumo {

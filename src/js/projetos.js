@@ -22,12 +22,12 @@ for (const projeto of projetos) {
     let verTecnologias = "";
     for (const tecnologia of projeto.tecnologias) {
         verTecnologias +=
-            `<li>
+            `<li class="${tecnologia}">
             <img src="./src/images/tecnologias/${tecnologia}.svg" alt="${tecnologia}">
         </li>`
     }
 
-    const listaProjetos = `<li>
+    const listaProjetos = `<li class="tech">
     <div class="preview-projeto">
         <img src="./src/images/projetos/${projeto.nomeArquivoImg}" alt="${projeto.textoAlternativo}">
     </div>

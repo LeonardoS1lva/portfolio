@@ -6,7 +6,10 @@
     <meta name="robots" content="index" />
 
     <title>Portifolio - Projetos</title>
-    <meta name="description" content="Aqui você encontra alguns dos meus projetos!" />
+    <meta
+      name="description"
+      content="Aqui você encontra alguns dos meus projetos!"
+    />
 
     <link
       rel="shortcut icon"
@@ -30,6 +33,33 @@
         Olá, aqui você encontra alguns dos meus projetos, informações e links de
         acesso, seja livre para explorar!
       </h1>
+      <div class="filtros">
+        <div class="filtro">
+          <input type="radio" name="filtro" id="exibir-todos" />
+          <label for="exibir-todos">Todos</label>
+        </div>
+        <div class="filtro">
+          <input type="radio" name="filtro" id="exibir-html-css" />
+          <label for="exibir-html-css">HTML e CSS</label>
+        </div>
+        <div class="filtro">
+          <input type="radio" name="filtro" id="exibir-js" />
+          <label for="exibir-js">JavaScript</label>
+        </div>
+        <div class="filtro">
+          <input type="radio" name="filtro" id="exibir-react" />
+          <label for="exibir-react">React</label>
+        </div>
+        <div class="filtro">
+          <input type="radio" name="filtro" id="exibir-python" />
+          <label for="exibir-python">Python</label>
+        </div>
+        <div class="filtro">
+          <input type="radio" name="filtro" id="exibir-java" />
+          <label for="exibir-java">Java</label>
+        </div>
+      </div>
+
       <ul id="container-projetos"></ul>
     </main>
     <footer>
@@ -63,5 +93,6 @@
     <script src="./src/js/dados/dados-projetos.js"></script>
     <script src="./src/js/projetos.js"></script>
     <script src="./src/js/botaoVoltarAoTopo.js"></script>
+    <script src="./src/js/filtrosLinguagem.js"></script>
   </body>
 </html>

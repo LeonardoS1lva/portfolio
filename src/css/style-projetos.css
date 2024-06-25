@@ -51,7 +51,23 @@ nav {
 .titulo {
     font-size: 36px;
     text-align: center;
-    padding: 0 5rem 5rem 5rem;
+    padding: 0 5rem 0 5rem;
+}
+
+.filtros {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 2rem;
+}
+
+.filtros .filtro {
+    color: #000;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none !important;
 }
 
 main {
@@ -232,6 +248,12 @@ a {
     .titulo {
         padding: 1rem;
         font-size: 1.5rem;
+    }
+
+    .filtros {
+        padding: 1rem;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     main {

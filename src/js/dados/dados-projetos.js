@@ -240,7 +240,7 @@ const projetos = [
         nomeArquivoImg: "preview-carrinho-de-compras.png",
         textoAlternativo: "carrinho de compras",
         descricao: "Um simulador de site de vendas com uso de carrinho de compras local.",
-        tecnologias: ["html", "css", "javascript"],
+        tecnologias: ["html", "css", "javascript", "tailwind"],
         nomeRepositorio: "carrinho-de-compras",
         online: true,
         download: false,

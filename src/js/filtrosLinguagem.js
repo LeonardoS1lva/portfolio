@@ -54,11 +54,21 @@ function exibirJava() {
     }
 }
 
+function exibirTailwind() {
+    esconderTodos();
+    const projetosTailwind = Array.from(listaProjetos.getElementsByClassName("tailwind"));
+    for (const projeto of projetosTailwind) {
+        projeto.closest(".tech").classList.remove("hidden");
+    }
+
+}
+
 function inicializaFiltros() {
     document.getElementById("exibir-todos").addEventListener("click", exibirTodos);
     document.getElementById("exibir-html-css").addEventListener("click", exibirHtmlCss);
     document.getElementById("exibir-js").addEventListener("click", exibirJavascript);
     document.getElementById("exibir-react").addEventListener("click", exibirReact);
+    document.getElementById("exibir-tailwind").addEventListener("click", exibirTailwind);
     document.getElementById("exibir-python").addEventListener("click", exibirPython);
     document.getElementById("exibir-java").addEventListener("click", exibirJava);
 }

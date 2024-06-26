@@ -23,7 +23,7 @@ for (const projeto of projetos) {
     for (const tecnologia of projeto.tecnologias) {
         verTecnologias +=
             `<li class="${tecnologia}">
-            <img src="./src/images/tecnologias/${tecnologia}.svg" alt="${tecnologia}">
+            <img src="./src/images/tecnologias/${tecnologia}.svg" alt="${tecnologia}" title="${tecnologia}">
         </li>`
     }
 

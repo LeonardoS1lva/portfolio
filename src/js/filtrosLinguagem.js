@@ -60,7 +60,22 @@ function exibirTailwind() {
     for (const projeto of projetosTailwind) {
         projeto.closest(".tech").classList.remove("hidden");
     }
+}
 
+function exibirBootstrap() {
+    esconderTodos();
+    const projetosBootstrap = Array.from(listaProjetos.getElementsByClassName("bootstrap"));
+    for (const projeto of projetosBootstrap) {
+        projeto.closest(".tech").classList.remove("hidden");
+    }
+}
+
+function exibirTypescript() {
+    esconderTodos();
+    const projetosTypescript = Array.from(listaProjetos.getElementsByClassName("typescript"));
+    for (const projeto of projetosTypescript) {
+        projeto.closest(".tech").classList.remove("hidden");
+    }
 }
 
 function inicializaFiltros() {
@@ -71,6 +86,8 @@ function inicializaFiltros() {
     document.getElementById("exibir-tailwind").addEventListener("click", exibirTailwind);
     document.getElementById("exibir-python").addEventListener("click", exibirPython);
     document.getElementById("exibir-java").addEventListener("click", exibirJava);
+    document.getElementById("exibir-bootstrap").addEventListener("click", exibirBootstrap);
+    document.getElementById("exibir-typescript").addEventListener("click", exibirTypescript);
 }
 
 inicializaFiltros();

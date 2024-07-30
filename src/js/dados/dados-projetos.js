@@ -283,7 +283,7 @@ const projetos = [
         nomeRepositorio: "Fake-Pinterest",
         online: true,
         download: false,
-        status: "Online",
+        status: "Offline",
         linkOnline: "https://fake-pinterest-gtyy.onrender.com/",
     },
     {
